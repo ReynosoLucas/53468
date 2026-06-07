@@ -11,7 +11,9 @@ node index.js ../input_correcto_1.txt
 Para probar el resto de los casos provistos:
 
 node index.js ../input_correcto_2.txt
+
 node index.js ../input_incorrecto_1.txt
+
 node index.js ../input_incorrecto_2.txt
 
 Al ejecutar los casos correctos, el programa realizará el análisis léxico/sintáctico, mostrará la tabla de lexemas-tokens, imprimirá el árbol de derivación en formato texto y finalmente ejecutará la traducción a código JavaScript nativo.
