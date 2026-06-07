@@ -1,8 +1,0 @@
-según 1 hacer {
-    caso 1:
-        imprimir("Ingresaste el caso 1");
-    caso 2:
-        imprimir("Ingresaste el caso 2");
-    defecto:
-        salir;
-} finsegún
