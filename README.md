@@ -1,13 +1,17 @@
-README
+INSTRUCCIONES DE USO
 
-Este es un archivo README para el repositorio del Analizador Sintáctico y Semántico. Aquí se describe de qué trata el proyecto, cómo instalarlo y cómo usarlo.
+Para testear y evaluar el proyecto del analizador, se deben utilizar los archivos de texto de ejemplo (.txt) que se encuentran ubicados en la carpeta principal del repositorio.
 
-Instalación
+Asegúrese de tener su terminal ubicada dentro de la carpeta "Analizador" y ejecute el programa principal (index.js) pasándole la ruta del archivo que desea evaluar.
 
-Clona este repositorio: git clone https://github.com/ReynosoLucas/53468.git
+Para ejecutar el primer ejemplo correcto:
 
-Una vez clonado el repositorio, debes ingresar a la carpeta del proyecto de código e instalar las dependencias de Node.js necesarias para que ANTLR4 funcione:
+node index.js ../input_correcto_1.txt
 
-cd Analizador
+Para probar el resto de los casos provistos:
 
-npm install
+node index.js ../input_correcto_2.txt
+node index.js ../input_incorrecto_1.txt
+node index.js ../input_incorrecto_2.txt
+
+Al ejecutar los casos correctos, el programa realizará el análisis léxico/sintáctico, mostrará la tabla de lexemas-tokens, imprimirá el árbol de derivación en formato texto y finalmente ejecutará la traducción a código JavaScript nativo.
